@@ -422,6 +422,7 @@ GameObject:
   - component: {fileID: 6889191035263152827}
   - component: {fileID: 1726045774610387177}
   - component: {fileID: 3904754275724078488}
+  - component: {fileID: 1502670918}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Obstacle
@@ -498,6 +499,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smoothing: 1
+  enemyAnim: {fileID: 6889191035263152827}
+--- !u!54 &1502670918
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889191035255765413}
+  serializedVersion: 2
+  m_Mass: 70
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
 --- !u!1 &6889191035255769433
 GameObject:
   m_ObjectHideFlags: 0
