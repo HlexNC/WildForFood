@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private float _rightInput;
     public bool gameOver;
     public Animator playerAnim;
+    public GameObject enemyGenerator;
 
     // Update is called once per frame
     private void Start()
@@ -35,6 +36,7 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             playerAnim.SetBool("Death_b", true);
             playerAnim.SetInteger("DeathType_int", 1);
+            enemyGenerator.SetActive(false);
         }
     }
 }
