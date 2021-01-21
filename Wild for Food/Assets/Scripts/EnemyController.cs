@@ -44,7 +44,7 @@ public class EnemyController : MonoBehaviour
         enemyAnim.SetFloat("Speed_f", 0.5f);
         while (Vector3.Distance(transform.position, _startPos) > 0.05f)
         {
-            transform.position = Vector3.Lerp(transform.position, _startPos, 0.5f  * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, _startPos, _speed * smoothing * Time.deltaTime);
             Vector3 relativePos = _startPos - transform.position;
             transform.rotation = Quaternion.LookRotation(relativePos);
             yield return null;
