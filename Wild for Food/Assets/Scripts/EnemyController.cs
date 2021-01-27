@@ -6,7 +6,7 @@ public class EnemyController : MonoBehaviour
     public float smoothing = 1f;
     private float _speed = 1f;
     private GameObject _player;
-    public Animator enemyAnim;
+    private Animator enemyAnim;
     private Rigidbody enemyRb;
     private bool _returnBack;
     private Vector3 _startPos;
@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour
     private void Start()
     {
         _player = GameObject.Find("Player");
-        enemyAnim = GetComponent<Animator>();
+        enemyAnim = gameObject.GetComponent<Animator>();
         enemyRb = gameObject.GetComponent<Rigidbody>();
         _startPos = transform.position;
         StartCoroutine(FUpdate());
