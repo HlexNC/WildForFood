@@ -19,3 +19,15 @@ It was hard. My original idea was: when a player collides with an enemy, it eats
 My original idea for the Enemy Generator was to make a local plane and to spawn enemies on it, on a line segment. the plane would rotate around a single point (player). I wanted to do it like that was because I wanted for enemies to spawn around a single point (player) but not right in front of it.
 ![Game](https://user-images.githubusercontent.com/66517969/106441573-42dddc80-648b-11eb-9947-fae040d89a47.jpg)
 The original idea didn't work. So I made an EnemySpawnArea in the middle of the map.
+### Day 13:
+Added the End Game Screen and added a GameStartScene
+### Day 16:
+Fixed animator but Eat_b still doesnt work
+### Day 18:
+Fised the Eat_b animator, It didnt work because the char animation couldn't transition run -> eat. It had to run -> idle -> eat.
+### Day 21:
+Added Cookie. Made the End Game Screen and GameStartScene (Main menu) work, added particles, fixed bugs. 
+### This is project's final form.
+![Screenshot 2021-02-01 143003](https://user-images.githubusercontent.com/66517969/106482018-142d2980-64be-11eb-9ece-3121fcd75ac5.png)
+### Day 22: 
+Making a presentation and a video for this game.
