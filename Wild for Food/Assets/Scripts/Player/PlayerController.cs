@@ -11,11 +11,16 @@ public class PlayerController : MonoBehaviour
     public bool gameOver;
     public Animator playerAnim;
     public GameObject enemyGenerator;
+    public ParticleSystem cookieParticle;
+    public ParticleSystem dirtParticle;
+    public GameObject cookie;
+    public GameObject GameOver;
 
     // Update is called once per frame
     private void Start()
     {
         playerAnim = GetComponent<Animator>();
+        dirtParticle.Play();
     }
     void FixedUpdate()
     {
@@ -34,9 +39,14 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Game Over");
             gameOver = true;
+            cookieParticle.Play();
+            dirtParticle.Stop();
             playerAnim.SetBool("Death_b", true);
             playerAnim.SetInteger("DeathType_int", 1);
             enemyGenerator.SetActive(false);
+            cookieParticle.Play();
+            cookie.SetActive(false);
+            GameOver.SetActive(true);
         }
     }
 }

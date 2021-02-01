@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SimpleCharacter_5.0
+  m_Name: SimpleCharacter_5.0 - Copy
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Speed_f
@@ -25,7 +25,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: Jump_b
     m_Type: 4
@@ -8494,7 +8494,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 40, y: 150, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 110244708}
+  m_DefaultState: {fileID: 110208860}
 --- !u!1107 &110750657
 AnimatorStateMachine:
   serializedVersion: 5
