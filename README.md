@@ -1,4 +1,4 @@
-# WildForFood <img src="https://user-images.githubusercontent.com/66517969/106664155-bbd95300-65b5-11eb-91d8-ac80ed55d6ab.png" width="300" align="right">
+# WildForFood. <img src="https://user-images.githubusercontent.com/66517969/106664155-bbd95300-65b5-11eb-91d8-ac80ed55d6ab.png" width="300" align="right">
 This project is a low-poly indie game I'm creating for January Showcase. 
 This game is a representation of my skill and what I have learned on Unity Learn so far.
 The is only one mission in this game: Not to let wild animals eat your cookies!
@@ -34,4 +34,8 @@ Added Cookie. Made the End Game Screen and GameStartScene (Main menu) work, adde
 ### Day 22: 
 Making a presentation and a video for this game.
 
+---
+### Playable Game.
 [Play the game here<img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://play.unity.com/mg/other/webgl-cmf)
+
+
