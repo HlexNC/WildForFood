@@ -30,8 +30,8 @@ Added Cookie. Made the End Game Screen and GameStartScene (Main menu) work, adde
 ### This is project's final form.
 ![Screenshot 2021-02-01 143003](https://user-images.githubusercontent.com/66517969/106482018-142d2980-64be-11eb-9ece-3121fcd75ac5.png)
 ### Game Video.
-![GameVideo](https://user-images.githubusercontent.com/66517969/106490817-42633700-64c7-11eb-9d30-0c088766722f.mp4)
+[Game Video <img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://user-images.githubusercontent.com/66517969/106490817-42633700-64c7-11eb-9d30-0c088766722f.mp4)
 ### Day 22: 
 Making a presentation and a video for this game.
 
-https://play.unity.com/mg/other/webgl-cmf
+[Play the game here<img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://play.unity.com/mg/other/webgl-cmf)
