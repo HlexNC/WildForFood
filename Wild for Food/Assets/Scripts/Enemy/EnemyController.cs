@@ -19,8 +19,10 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator FUpdate()
     {
-        while (Vector3.Distance(transform.position, _player.transform.position) > 0.05f) {
-            transform.position = Vector3.Lerp(transform.position, _player.transform.position, _speed * smoothing * Time.deltaTime);
+        while (Vector3.Distance(transform.position,
+            _player.transform.position) > 0.05f) {
+            transform.position = Vector3.Lerp(transform.position,
+                _player.transform.position, _speed * smoothing * Time.deltaTime);
             Vector3 relativePos = _player.transform.position - transform.position;
             transform.rotation = Quaternion.LookRotation(relativePos);
             yield return null;
@@ -39,7 +41,7 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //On Collision with Player eats Players food (doesn't work: gets destroyed straight away)
+        //On Collision with Player eats Players food 
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player");

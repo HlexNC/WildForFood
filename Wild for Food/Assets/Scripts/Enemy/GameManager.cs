@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     }
     private IEnumerator GenerateEnemy()
     {
+        //Generate An Enemy Prefab Every 1 sec
         enemyIndex = Random.Range(0, enemyPrefabs.Length);
         Instantiate(
             enemyPrefabs[enemyIndex],
@@ -27,10 +28,10 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         StartCoroutine(GenerateEnemy());
     }
+    //Print Score After Every Collision
     public void ScoreUpdate(int scoreToAdd)
     {
         score += scoreToAdd;
         scoreText.text = "Score: " + score;
     }
-    // Update is called once per frame
 }
