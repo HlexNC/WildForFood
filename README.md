@@ -1,4 +1,4 @@
-# WildForFood
+# WildForFood <img src="https://user-images.githubusercontent.com/66517969/106664155-bbd95300-65b5-11eb-91d8-ac80ed55d6ab.png" width="300" align="right">
 This project is a low-poly indie game I'm creating for January Showcase. 
 This game is a representation of my skill and what I have learned on Unity Learn so far.
 The is only one mission in this game: Not to let wild animals eat your cookies!
