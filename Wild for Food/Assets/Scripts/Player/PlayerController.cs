@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -31,7 +32,10 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector3.forward * (Time.deltaTime * speed));
             transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * _rightInput);
         }
-        
+        if (transform.position.y < -10)
+        {
+            SceneManager.LoadScene("StartScene");
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
