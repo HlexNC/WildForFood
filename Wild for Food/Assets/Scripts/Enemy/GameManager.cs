@@ -9,12 +9,11 @@ public class GameManager : MonoBehaviour
     public int spawnRange;
     private int enemyIndex;
     public TextMeshProUGUI scoreText;
-    private int score;
+    private int score = 0;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(GenerateEnemy());
-        score = 0;
         
     }
     private IEnumerator GenerateEnemy()

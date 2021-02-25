@@ -6,14 +6,13 @@ public class EnemyController : MonoBehaviour
     public float smoothing = 1f;
     private float _speed = 1f;
     private GameObject _player;
-    private Animator enemyAnim;
+    [SerializeField] private Animator enemyAnim;
     private GameManager gameManager;
 
     private void Start()
     {
         _player = GameObject.Find("Player");
         gameManager = GameObject.Find("Enemy Generator").GetComponent<GameManager>();
-        enemyAnim = gameObject.GetComponent<Animator>();
         StartCoroutine(FUpdate());
     }
 
