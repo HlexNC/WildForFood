@@ -1,41 +1,49 @@
-# WildForFood. <img src="https://user-images.githubusercontent.com/66517969/106664155-bbd95300-65b5-11eb-91d8-ac80ed55d6ab.png" width="300" align="right">
-This project is a low-poly indie game I'm creating for January Showcase. 
-This game is a representation of my skill and what I have learned on Unity Learn so far.
-The is only one mission in this game: Not to let wild animals eat your cookies!
+# WildForFood 🐾🍪 <img src="https://user-images.githubusercontent.com/66517969/106664155-bbd95300-65b5-11eb-91d8-ac80ed55d6ab.png" width="300" align="right">
 
----
+Experience the thrill of protecting your cookies in "WildForFood," a low-poly indie game crafted for the January Showcase. This game symbolizes my learning journey with Unity Learn and showcases the skills I've acquired. 
+
+Your mission, should you choose to accept it, is simple: Don't let the wild animals eat your cookies!
+
 ![WildForFood_SceneView](https://user-images.githubusercontent.com/66517969/104521057-43622080-560d-11eb-9e4a-a24aeccca0e0.png)
 
----
+## Development Diary 📒
+
 ### Day 1:
-Had trouble setting up the project. I didn't know what kind of a game I wanted to create. I remembered an old indie game where you needed to avoid police cars to gain a score (Not GTA), tried to find it with no success. But that was the idea for creating Wild for Food.
+Embarked on this exciting journey. Faced initial challenges in setting up the project and deciding the game genre. The idea evolved from an old indie game where the goal was to dodge police cars.
 
 ### Day 2:
-This day was productive. I made a scene, added a character controller, character death, etc.
+A day of significant progress. Set up the initial scene, added a character controller, implemented character death, and more.
 
 ### Day 3:
-It was hard. My original idea was: when a player collides with an enemy, it eats the player's cookie, and when an enemy + another enemy crash into each other, they make an explosion and disappear, but it looked boring, so I changed it (it would look good with cars). I made it so that when an enemy crashes into another enemy, they run in the other way or stay in place. I had lots of problems with the timer and "run in the opposite direction" script. At like 2:40 am, I fixed the code and pushed it to GitHub.
+Faced challenges with the enemy mechanics and timer script. Originally, when a player collided with an enemy, it would eat the player's cookie, and when two enemies crashed, they would explode and disappear. The gameplay seemed dull, so revised it to make enemies run in different directions upon collision. 
+
 ### Day 8:
-My original idea for the Enemy Generator was to make a local plane and to spawn enemies on it, on a line segment. the plane would rotate around a single point (player). I wanted to do it like that was because I wanted for enemies to spawn around a single point (player) but not right in front of it.
-![Game](https://user-images.githubusercontent.com/66517969/106441573-42dddc80-648b-11eb-9947-fae040d89a47.jpg)
-The original idea didn't work. So I made an EnemySpawnArea in the middle of the map.
+The original plan for the Enemy Generator was to spawn enemies on a rotating plane around the player. However, this didn't work out, so pivoted to a central EnemySpawnArea.
+
 ### Day 13:
-Added the End Game Screen and added a GameStartScene
+Added the End Game Screen and a GameStartScene.
+
 ### Day 16:
-Fixed animator but Eat_b still doesnt work
+Fixed animator, but still faced issues with the 'Eat_b' animation.
+
 ### Day 18:
-Fised the Eat_b animator, It didnt work because the char animation couldn't transition run -> eat. It had to run -> idle -> eat.
+Resolved the 'Eat_b' animation issue. The issue was due to the character animation's inability to transition directly from 'run' to 'eat'. It had to transition from 'run' -> 'idle' -> 'eat'.
+
 ### Day 21:
-Added Cookie. Made the End Game Screen and GameStartScene (Main menu) work, added particles, fixed bugs. 
-### This is project's final form.
-![Screenshot 2021-02-01 143003](https://user-images.githubusercontent.com/66517969/106482018-142d2980-64be-11eb-9ece-3121fcd75ac5.png)
-### Game Video.
-[Game Video <img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://user-images.githubusercontent.com/66517969/106490817-42633700-64c7-11eb-9d30-0c088766722f.mp4)
-### Day 22: 
-Making a presentation and a video for this game.
+Introduced the Cookie! Made the End Game Screen and GameStartScene operational, added particle effects, and fixed several bugs.
+
+### Day 22:
+Prepared a presentation and video for the game. 
 
 ---
-### Playable Game.
-[Play the game here<img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://play.unity.com/mg/other/webgl-cmf)
 
+## Final Look of the Game 🎮
+![Game Picture 2](https://user-images.githubusercontent.com/66517969/106482018-142d2980-64be-11eb-9ece-3121fcd75ac5.png)
 
+## Game Video 🎥 
+[Watch the Game Video Here <img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://user-images.githubusercontent.com/66517969/106490817-42633700-64c7-11eb-9d30-0c088766722f.mp4)
+
+---
+
+## Play the Game 🕹️
+Ready for a wild adventure? [Play the game here<img src="https://user-images.githubusercontent.com/66517969/106664927-bfb9a500-65b6-11eb-8988-8fe9d27dc0f8.png" width="20">](https://play.unity.com/mg/other/webgl-cmf)
