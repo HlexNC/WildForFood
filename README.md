@@ -7,6 +7,8 @@ Your mission, should you choose to accept it, is simple: Don't let the wild anim
 ![WildForFood_SceneView](https://user-images.githubusercontent.com/66517969/104521057-43622080-560d-11eb-9e4a-a24aeccca0e0.png)
 
 ## Development Diary 📒
+<details>
+<summary>Click to expand👆</summary>
 
 ### Day 1:
 Embarked on this exciting journey. Faced initial challenges in setting up the project and deciding the game genre. The idea evolved from an old indie game where the goal was to dodge police cars.
@@ -33,7 +35,10 @@ Resolved the 'Eat_b' animation issue. The issue was due to the character animati
 Introduced the Cookie! Made the End Game Screen and GameStartScene operational, added particle effects, and fixed several bugs.
 
 ### Day 22:
-Prepared a presentation and video for the game. 
+Prepared a presentation and video for the game.
+
+</details>
+
 
 ---
 
